@@ -1,0 +1,342 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+section {
+    height: 100vh;
+    background-color: #FFF;
+    font-family: 'Poppins';
+    font-style: normal;
+    box-sizing: border-box;
+}
+
+.firstSection {
+    background-image: url("./img/background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.firstSection .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
+}
+
+.firstSection .content .logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-top: 80px;
+}
+
+.firstSection .content .logo p {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 100%;
+    text-transform: uppercase;
+}
+
+.firstSection .content h2{
+    padding-top: 40px;
+    font-weight: 800;
+    font-size: 3rem;
+}
+
+.firstSection .content p{
+    padding: 20px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: center;
+}
+
+.firstSection .content .services {
+    padding: 10;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 900px;
+}
+
+.firstSection .content .services div {
+    text-align: center;
+}
+
+.btnHelpMe, .btnHelpMeExtra {
+    border: none;
+    cursor: pointer;
+    width: 200px;
+    height: 70px;
+    margin-top: 40px;
+    padding: 15px 32px;
+    background: #50B2EA;
+    box-shadow: 0px 20px 40px rgba(129, 209, 255, 0.2);
+    border-radius: 12px;
+    color: white;
+    font-family: 'Poppins';
+    font-size: 1.2rem;
+    text-decoration: none;
+}
+
+.btnHelpMeExtra {
+    position: absolute;
+    left: 50%;
+    top: 182vh;
+    transform: translate(-50%, 0%);
+    border: 2px solid #FFFFFF;
+}
+
+.btnHelpMe:hover, .btnHelpMeTeste:hover {
+    background: #34b1fa;
+}
+
+.secondSection {
+    display: flex;
+}
+
+.secondSection .blank, .colored{
+    width: 50%;
+    height: 100%;
+}
+
+.secondSection .blank{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    font-family: 'Poppins';
+    font-style: normal;
+    color: #FFF;
+}
+
+.secondSection .blank .pumblerDescription {
+    padding: 40px 40px 0 40px;
+    height: 509px;
+    background: #50B2EA;
+    border-top-left-radius: 40px;
+    border-bottom-left-radius: 40px;
+    box-sizing: border-box;
+}
+
+.secondSection .blank .pumblerDescription .title {
+    margin-top: 15px;
+    font-weight: 700;
+    font-size: 2.8rem;
+    line-height: 72px;
+}
+
+.secondSection .blank .pumblerDescription .description {
+    margin-top: 20px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    color: #000;
+}
+
+.secondSection .blank .pumblerDescription .row{
+    display: flex;
+    margin-top: 25px;
+}
+
+.secondSection .blank .pumblerDescription .row img{
+    margin-right: 15px;
+}
+
+.secondSection .blank .btnHelpMe {
+    border: 2px solid #FFFFFF;
+    border-radius: 10px;
+}
+
+.secondSection .colored{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: #50B2EA;
+}
+
+.secondSection .colored .pumbler img{
+    /* display: block;
+    max-width: 100%; */
+    border-top:    3px solid #F2F2F2;
+    border-right:  3px solid #F2F2F2;
+    border-bottom: 3px solid #F2F2F2;
+    border-radius: 0px 40px 40px 0px;
+}
+
+.thirdSection .topSection {
+    height: 50vh;
+    background-image: url("./img/background_v2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-sizing: border-box;
+}
+
+.thirdSection .topSection h1{
+    padding-top: 50px;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 72px;
+    text-align: center;
+    color: #FFF;
+}
+
+.thirdSection .topSection figure{
+    padding-top: 50px;
+    text-align: center;
+}
+
+.thirdSection .bottomSection {
+    height: 50vh;
+    box-sizing: border-box;
+}
+
+.thirdSection .bottomSection .content {
+    display: flex;
+    justify-content: center;
+}
+
+.thirdSection .bottomSection .servicesDescription {
+    margin-top: 20px;
+    width: 1060px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.thirdSection .bottomSection .servicesDescription .column {
+    padding: 5px 25px 0 25px;
+    text-align: center;
+}
+
+.thirdSection .bottomSection .servicesDescription .column h2{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    color: #50B2EA;
+}
+
+.thirdSection .bottomSection .servicesDescription .column p{
+    padding-top: 15px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    color: #19435A;
+}
+
+.thirdSection .bottomSection .btn {
+    text-align: center;
+}
+
+.fourthSection {
+    background: #50B2EA;
+}
+
+.fourthSection h1 {
+    padding: 90px;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 72px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.fourthSection .content {
+    display: grid;
+    grid-template-columns: 610px 610px;
+    gap: 30px 60px;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+.fourthSection .content .rate {
+    display: flex;
+    width: 577px;
+    height: 190px;
+    padding: 30px 30px 0 30px;
+    background: #FFFFFF;
+    box-shadow: 0px 20px 20px rgba(129, 209, 255, 0.2);
+    border-radius: 40px;
+}
+
+.fourthSection .content .rate .userPicture{
+    padding-right: 15px;
+}
+
+.fourthSection .content .rate .userRate h3{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    color: #50B2EA;
+}
+
+.fourthSection .content .rate .userRate p{
+    margin: 15px 0 15px 0;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    color: #19435A;
+}
+
+.fourthSection .content .rate .userPicture .stars{
+    display: flex;
+    margin-top: 10px;
+}
+
+.lastSection .topSection{
+    height: 90vh;
+}
+
+.lastSection .topSection .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.lastSection .topSection .content h1{
+    padding: 60px 0 40px 0;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 72px;
+    text-align: center;
+    color: #50B2EA;
+}
+
+.lastSection .topSection .content .form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.lastSection .topSection .content .form .field {
+    margin-top: 25px;
+    width: 370px;
+    height: 64px;
+    background: #50B2EA;
+    opacity: 0.5;
+    border-radius: 40px;
+}
+
+.btnSend {
+    border: none;
+    cursor: pointer;
+    width: 200px;
+    height: 70px;
+    margin-top: 60px;
+    padding: 15px 32px;
+    background: #50B2EA;
+    box-shadow: 0px 20px 40px rgba(129, 209, 255, 0.2);
+    border-radius: 40px;
+    color: white;
+    font-family: 'Poppins';
+    font-size: 1.2rem;
+    text-decoration: none;
+}
+
+.btnSend:hover {
+    background: #34b1fa;
+}
+
+footer {
+    background: #19435A;
+    height: 10vh
+}
